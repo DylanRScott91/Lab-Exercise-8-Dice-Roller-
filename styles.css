@@ -1,0 +1,35 @@
+body{
+    background-image: url(backgroundImage.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+}
+
+#container{
+    font-family: Garamond, serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: hsl(0, 0%, 100%);
+}
+
+#diceType{
+    padding: 8px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+button{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(45, 66, 251);
+    color: aliceblue;
+    cursor: pointer;
+}
+
